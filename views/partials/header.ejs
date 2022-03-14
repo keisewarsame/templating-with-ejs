@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title><%=title%></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/nodejs/node/master/src/res/node.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .fakeimg {
+    	height: 200px;
+    	background: #aaa;
+    }
+
+    img.pic{
+      width: 50%
+      max-width:300px;
+    }
+    
+  </style>
+</head>
+<body>
+
+<div class="p-5 bg-primary text-white text-center">
+  <h1>My First Bootstrap 5 Page</h1>
+  <p>This is an assignment page which utilizes Bootstrap 5 template and Node.js with Express to display different links to pages!</p>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+	<ul class="navbar-nav">
+  	<li class="nav-item">
+    	<a class="nav-link" href="/">Home</a>
+  	</li>
+  	<li class="nav-item">
+    	<a class="nav-link" href="dogs">Dogs</a>
+  	</li>
+  	<li class="nav-item">
+    	<a class="nav-link" href="cats">Cats</a>
+  	</li>
+  	<li class="nav-item">
+    	<a class="nav-link" href="rabbits">Rabbits</a>
+  	</li>
+	</ul>
+  </div>
+</nav>
+<div class="container mt-5">
+<div class="row">
+<div class="col-sm-4">
+
+<!--  views/partials/header.ejs ends here  -->
